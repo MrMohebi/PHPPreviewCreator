@@ -1,0 +1,22 @@
+{
+  "name": "mrmohebi/phppreviewcreator",
+  "description": "create preview and thumbnail for video and images",
+  "minimum-stability": "stable",
+  "keywords": ["php", "create", "generate", "image", "video", "preview", "thumbnail"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MMMohebi",
+      "email": "mmmohebi@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrMohebi\\PHPPreviewCreator\\": "src/"
+    }
+  }
+}
