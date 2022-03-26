@@ -1,6 +1,6 @@
 {
   "name": "mrmohebi/phppreviewcreator",
-  "description": "create preview and thumbnail for video and images",
+  "description": "create preview or thumbnail for video and images",
   "minimum-stability": "stable",
   "keywords": ["php", "create", "generate", "image", "video", "preview", "thumbnail"],
   "license": "MIT",
