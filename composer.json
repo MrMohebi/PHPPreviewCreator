@@ -12,11 +12,13 @@
   ],
   "require": {
     "php": "^8.0",
-    "ext-fileinfo": "*"
+    "ext-fileinfo": "*",
+    "php-ffmpeg/php-ffmpeg": "^1.0",
+    "intervention/image": "^2.7"
   },
   "autoload": {
     "psr-4": {
-      "MrMohebi\\PHPPreviewCreator\\": "src/"
+      "MrMohebi\\": "src/"
     }
   }
 }
