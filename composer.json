@@ -1,6 +1,6 @@
 {
   "name": "mrmohebi/phppreviewcreator",
-  "description": "create preview and thumbnail for video and images",
+  "description": "create preview or thumbnail for video and images",
   "minimum-stability": "stable",
   "keywords": ["php", "create", "generate", "image", "video", "preview", "thumbnail"],
   "license": "MIT",
@@ -12,15 +12,13 @@
   ],
   "require": {
     "php": "^8.0",
-    "php-ffmpeg/php-ffmpeg":"^1.0.1",
-    "intervention/image": "^2.7.1",
-    "lunakid/anim-gif": "^1.3",
-    "ext-gd": "*"
+    "ext-fileinfo": "*",
+    "php-ffmpeg/php-ffmpeg": "^1.0",
+    "intervention/image": "^2.7"
   },
   "autoload": {
     "psr-4": {
-      "MrMohebi\\PHPPreviewCreator\\": "src/",
-      "PHPPreviewCreator\\Exception\\": "src/Exception/"
+      "MrMohebi\\": "src/"
     }
   }
 }
