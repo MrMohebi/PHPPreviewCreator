@@ -20,6 +20,8 @@ class PHPPreviewCreator
     private bool $isImage;
 
     /**
+     * @param string $source
+     * @param string|null $destinationPath
      * @throws Exception
      */
     public function __construct(string $source, string $destinationPath = null)
